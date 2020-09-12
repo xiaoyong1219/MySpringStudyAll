@@ -65,7 +65,7 @@ public class FileItemReaderDemo {
         //AbstractLineTokenizer的三个实现类之一，以固定分隔符处理行数据读取
         //使用默认构造器的时候，使用逗号作分隔符，也可以通过有参构造来指定分隔符
         //DelimitedLineTokenizer delimitedLineTokenizer = new DelimitedLineTokenizer(";");
-        DelimitedLineTokenizer delimitedLineTokenizer = new DelimitedLineTokenizer("");
+        DelimitedLineTokenizer delimitedLineTokenizer = new DelimitedLineTokenizer();
 
         //设置属性名，类似表头
         delimitedLineTokenizer.setNames("id", "field1", "field2", "field3");
