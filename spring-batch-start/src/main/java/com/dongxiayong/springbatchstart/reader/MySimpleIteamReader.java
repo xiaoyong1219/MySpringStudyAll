@@ -5,7 +5,6 @@ import org.springframework.batch.item.NonTransientResourceException;
 import org.springframework.batch.item.ParseException;
 import org.springframework.batch.item.UnexpectedInputException;
 
-import java.io.Serializable;
 import java.util.Iterator;
 import java.util.List;
 
